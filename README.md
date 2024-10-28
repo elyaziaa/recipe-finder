@@ -1,70 +1,34 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description of my "Ingredient Recipe Choices" project:
+Ingrediant Recipe Choices is a web application built with React that helps users quickly find recipes based on ingredients they have at home. With a few filters, users can discover meal ideas suited to their prefered cuisines, dietary preferences, and available ingredients. Using the Spoonacular API, this simple meal prep app makes it easy to decide what to do with the ingrediants you have at home,a nd what you can add to make a selection of dishes.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# API Used: Spoonacular API
+My project uses one API which is the Spoonacular API. It is a  food and recipe database that provides extensive information on recipes, ingredients, and nutritional details. Using Spoonacular, "Ingredient Recipe Choices" offers users a quick and easy way to find recipes based on specific ingredients, cuisines, diets, and recipe types.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Key API Endpoints
+Complex Search Endpoint: This endpoint is used to search for recipes using filtering options. This allows my app to take ingredient lists, cuisine preferences, and dietary requirements and return tailored results.
 
-### `npm test`
+Endpoint: GET https://api.spoonacular.com/recipes/complexSearch
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Recipe Information Endpoint: Once a recipe is selected, this endpoint provides detailed information about the recipe, specifically the full list of ingredients.
 
-### `npm run build`
+Endpoint: GET https://api.spoonacular.com/recipes/{id}/information
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Acknowledgments: Built with Assistance from ChatGPT
+My project was enhanced with the help of ChatGPT, an AI language model created by OpenAI, here is how:
 
-### `npm run eject`
+1- Project Structuring Guidance: Assistance with setting up React components, managing state, and organizing project files.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2- Troubleshooting and Debugging: Real-time troubleshooting support for error messages, missing files, and GitHub setup.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3-Styling and User Interface: Tips on implementing CSS and inline styling to create a user-friendly and visually appealing interface.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# How to Set
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
