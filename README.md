@@ -30,5 +30,16 @@ My project was enhanced with the help of ChatGPT, an AI language model created b
 
 
 
-# How to Set
+# How to Set Up this Program:
+1- Open your terminal and type in: git clone https://github.com/elyaziaa/recipe-finder.git
+
+2- Type in: cd recipe-finder
+
+3- Type in: touch .env, and make sure to add the API key
+
+4- Type in: npm install
+
+5- Type in: npm start
+
+
 
